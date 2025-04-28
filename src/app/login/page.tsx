@@ -48,7 +48,7 @@ const LoginPage = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Loginfkjefbkwjefb</button>
+        <button type="submit">Login</button>
       </form>
       {message && <p>{message}</p>}
     </div>
